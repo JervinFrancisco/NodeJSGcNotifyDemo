@@ -3,7 +3,7 @@ const { v4: uuidv4 } = require('uuid');
 var NotifyClient = require('notifications-node-client').NotifyClient
 
 const port = process.env.PORT || 5001;
-const apiKey = "testapi-18c4ce38-e89f-47c3-afdd-798121f558be-3cd3d5d2-e182-44fb-8eca-8645940c57f7"
+const apiKey = "****"
 const notifyClient = new NotifyClient('https://api.notification.canada.ca', apiKey)
 
 const app = express();
